@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cunningham Equation</string>
+    <string name="title_activity_atpart_twp_activity">ATPartTwp_activity</string>
+    <string name="title_activity_extra_">Extra_Activity</string>
+</resources>

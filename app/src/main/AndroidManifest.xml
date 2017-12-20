@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aman.cunninghamequation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cunninghamequationlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RMR_KGActivity" />
+        <activity android:name=".WeightChoose_Activity" />
+        <activity android:name=".RMR_LBActivity" />
+        <activity android:name=".FFM_Activity" />
+        <activity android:name=".FFM_CalcActivity" />
+        <activity android:name=".TEF_Activity" />
+        <activity android:name=".AT_Activity" />
+        <activity android:name=".ATPartTwo_Activity" />
+        <activity android:name=".NTDCN_Activity" />
+        <activity android:name=".ERAT_Activity" />
+        <activity android:name=".TDCN_Activity" />
+        <activity android:name=".Finish_Activity" />
+        <activity
+            android:name=".Extra_Activity"
+            android:label="@string/title_activity_extra_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
